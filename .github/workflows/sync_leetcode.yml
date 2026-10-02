@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Sabtu 08:00 UTC (~15:00 WIB)
-    - cron: "0 8 * * 6"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: write
